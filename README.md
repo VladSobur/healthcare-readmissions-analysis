@@ -8,10 +8,6 @@ A SQL Server and Power BI project analyzing hospital readmissions, patient risk 
 
 ## Project Overview
 
----
-
-## Project Overview
-
 Hospital readmissions are an important quality and performance metric in healthcare. Understanding which patient populations and clinical characteristics are associated with higher readmission rates can help hospitals improve patient outcomes, optimize care planning, and reduce avoidable healthcare costs.
 
 This project demonstrates an end-to-end healthcare analytics workflow using **SQL Server** and **Power BI**. Raw hospital encounter data was transformed into analytical SQL views, validated, and visualized through an interactive three-page dashboard designed to support executive and clinical decision-making.
