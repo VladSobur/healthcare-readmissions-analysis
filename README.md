@@ -45,4 +45,14 @@ The dataset contains demographic, clinical, medication, and hospitalization info
 
 ## Dashboard Preview
 
-> Dashboard screenshots will be added below.
+### Hospital Readmission Overview
+
+![Hospital Readmission Overview](Images/Hospital_Readmission_Overview.png)
+
+### Clinical Drivers of Readmission
+
+![Clinical Drivers of Readmission](Images/Clinical_Drivers_of_Readmission.png)
+
+### Patient Risk Factors
+
+![Patient Risk Factors](Images/Patient_Risk_Factors.png)
