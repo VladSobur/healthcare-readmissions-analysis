@@ -1,10 +1,6 @@
 # Hospital Readmission Analytics
 
 A SQL Server and Power BI project analyzing hospital readmissions, patient risk factors, and clinical patterns across **101,766 inpatient encounters**.
-# Hospital Readmission Analytics
-
-A SQL Server and Power BI project analyzing hospital readmissions, patient risk factors, and clinical patterns across **101,766 inpatient encounters**.
-
 ![Hospital Readmission Overview](Images/Hospital_Readmission_Overview.png)
 
 ---
