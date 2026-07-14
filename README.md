@@ -67,7 +67,7 @@ The data model consists of four logical layers:
    These tables form a simple star schema used to organize patient and encounter data for analytical reporting.
 
 4. **Analytics Layer**
-   Business-focused SQL views aggregate readmission metrics for reporting, including:
+   Business-focused analytical SQL views aggregate readmission metrics for reporting, including:
 
    - Readmission by Age Group
    - Readmission by Race
