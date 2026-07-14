@@ -146,9 +146,9 @@ Hospital-Readmission-Analytics/
 ├── 05_Create_Stored_Procedure.sql
 ├── 06_Validation.sql
 │
-├── healthcare_readmissions_analysis.pbix
 ├── ARCHITECTURE_DIAGRAM.md
 ├── ER_DIAGRAM.md
 ├── LICENSE
-└── README.md
+├── README.md
+└── healthcare_readmissions_analysis.pbix
 ```
