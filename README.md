@@ -47,18 +47,38 @@ The dataset contains demographic, clinical, medication, and hospitalization info
 
 ## Data Model
 
-The project follows a SQL-first approach. Raw hospital encounter data was cleaned and transformed into analytical SQL views, with each view supporting a specific dashboard visual or business question.
+The project follows a SQL-first architecture that transforms raw hospital encounter data into reusable analytical datasets for Power BI reporting.
 
-Primary analytical views include:
+The data model consists of four logical layers:
 
-- Readmission by Age Group
-- Readmission by Race
-- Readmission by Admission Type
-- Readmission by Length of Stay
-- Readmission by Medication Load
-- Readmission after Medication Change
-- Readmission by Patient Complexity
-- Top Medical Specialties by Readmission Rate
+1. **Raw Data**
+   - `raw_diabetes_readmissions`
+   - Original imported hospital encounter dataset.
+
+2. **Staging Layer**
+   - `stg_readmissions`
+   - Standardizes data types, cleans values, creates calculated fields, and prepares data for analysis.
+
+3. **Dimensional Model**
+   - `dim_patient`
+   - `dim_diagnosis`
+   - `fact_readmissions`
+
+   These tables support dimensional modeling and reusable analytics.
+
+4. **Analytics Layer**
+   Business-focused SQL views aggregate readmission metrics for reporting, including:
+
+   - Readmission by Age Group
+   - Readmission by Race
+   - Readmission by Admission Type
+   - Readmission by Length of Stay
+   - Readmission by Medication Load
+   - Readmission after Medication Change
+   - Readmission by Patient Complexity
+   - Top Medical Specialties by Readmission Rate
+
+Power BI imports these analytical views together with DAX measures to produce the final interactive dashboards.
 
 ---
 
