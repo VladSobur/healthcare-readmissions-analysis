@@ -134,18 +134,21 @@ Explores the relationship between readmissions and patient complexity, medicatio
 ```
 Hospital-Readmission-Analytics/
 │
-├── SQL/
-│   ├── 01_Create_Database.sql
-│   ├── 02_Data_Cleaning.sql
-│   ├── 03_Create_Views.sql
-│
-├── PowerBI/
-│   └── Hospital_Readmission_Analytics.pbix
-│
 ├── Images/
+│   ├── Clinical_Drivers_of_Readmission.png 
 │   ├── Hospital_Readmission_Overview.png
-│   ├── Clinical_Drivers_of_Readmission.png
 │   └── Patient_Risk_Factors.png
 │
+├── 01_Create_Database.sql
+├── 02_Create_Staging_View.sql
+├── 03_Create_Dimensions_and_Fact.sql
+├── 04_Create_Analytics_Views.sql
+├── 05_Create_Stored_Procedure.sql
+├── 06_Validation.sql
+│
+├── healthcare_readmissions_analysis.pbix
+├── ARCHITECTURE_DIAGRAM.md
+├── ER_DIAGRAM.md
+├── LICENSE
 └── README.md
 ```
