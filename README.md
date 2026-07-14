@@ -90,7 +90,7 @@ The analytical workflow followed these stages:
 2. Clean and standardize data types.
 3. Create reusable SQL views for each business question.
 4. Aggregate patient counts and readmission metrics.
-5. Connect Power BI directly to SQL views.
+5. Connect Power BI to the staging layer and analytical SQL views.
 6. Build interactive dashboards using DAX measures and Power BI visualizations.
 
 ---
