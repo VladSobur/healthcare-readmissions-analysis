@@ -45,7 +45,7 @@ The dataset contains demographic, clinical, medication, and hospitalization info
 
 ---
 
-## Data Model
+## Data Architecture
 
 The project follows a SQL-first architecture that transforms raw hospital encounter data into reusable analytical datasets for Power BI reporting.
 
@@ -64,7 +64,7 @@ The data model consists of four logical layers:
    - `dim_diagnosis`
    - `fact_readmissions`
 
-   These tables support dimensional modeling and reusable analytics.
+   These tables form a simple star schema used to organize patient and encounter data for analytical reporting.
 
 4. **Analytics Layer**
    Business-focused SQL views aggregate readmission metrics for reporting, including:
@@ -78,7 +78,7 @@ The data model consists of four logical layers:
    - Readmission by Patient Complexity
    - Top Medical Specialties by Readmission Rate
 
-Power BI imports these analytical views together with DAX measures to produce the final interactive dashboards.
+Power BI imports the staging view, analytical SQL views, and DAX measures to produce the final interactive dashboards.
 
 ---
 
